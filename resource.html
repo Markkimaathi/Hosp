@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.header {
+  background-color: #6a9f9d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 50px;
+  color: #6a9f9d;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav a:hover {
+  color: #e6e6e6;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px;
+  border: none;
+  background-color: #6a9f9d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #6a9f9d;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div class="logo">
+          <i class="fas fa-plus-circle"></i>
+        </div>
+        <h1 class="site-title">HEALTH CONNECT</h1>
+        <p class="site-description">ELDERLY HEALTH MATTERS!</p>
+      </div>
+      <div class="column">
+        <nav class="nav">
+          <a href="#">HOME</a>
+          <a href="#">BROWSER DIRECTORY</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">RESOURCE PAGE</a>
+          <a href="#">CONTACT US</a>
+          <a href="#">LOGIN</a>
+          <a href="#">SIGN UP</a>
+        </nav>
+      </div>
+      <div class="column">
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">welcome to healthcare Resource page!</h2>
+      <div class="section-content">
+        <p>Here you'll find a wealth of resources tailored to meet the healthcare needs of elderly individuals in rural area.our goal is to provide reliable, accessible and localized information to empower you and your loved ones to make informed health decisions.</p>
+        <p>Healthcare providers directory in Kenya, easily find and contact a health provider near you.</p>
+        <p>accessible and reliable information:</p>
+        <h3>general practitioners:</h3>
+        <p>Dr.john kamau:</p>
+        <ul>
+          <li>address: 123 Moi Avenue Nairobi</li>
+          <li>telephone:0794672348</li>
+          <li>hours:monday-friday, 9:00am-5:00pm</li>
+        </ul>
+        <p>Dr.Emma Njeri:</p>
+        <ul>
+          <li>address:456,kenyatta street, Nakuru</li>
+          <li>telephone:0789345754</li>
+          <li>hours: monday-friday, 10:00am-6:00pm</li>
+        </ul>
+        <h3>phamarcies:</h3>
+        <p>kenya health pharmacy</p>
+        <ul>
+          <li>address:654 kimathi street, Nairobi</li>
+          <li>telephone: 0764562349</li>
+          <li>services:prescription refills,over-the-counter medications, health consultation.</li>
+        </ul>
+        <p>community care pharmacy</p>
+        <ul>
+          <li>address:987 Moi avenue, Nakuru</li>
+          <li>telephone:0789653548</li>
+          <li>services:prescriptions refills, medical supplies, wellness program</li>
+        </ul>
+      </div>
+      <div class="section-content">
+        <h3>specialists:</h3>
+        <p>Cardiologist:Dr.Lisa Wanjiku</p>
+        <ul>
+          <li>location: 789 uhuru highway,kisumu</li>
+          <li>email:lisawanjiku@healthcare.com</li>
+          <li>office hours: tuesdays 8:00am-4:00pm</li>
+        </ul>
+        <p>Orthopedist:Dr.Michael Mwangi</p>
+        <ul>
+          <li>Address:321 Nkrumah road, Nairobi</li>
+          <li>phone:0765432327</li>
+          <li>email:michaelmwangi@jointcare.com</li>
+          <li>office hours:wednesday & friday, 9:00am-5:00pm</li>
+        </ul>
+        <p>dial 911 right now and follow emergency notification protocols.where do i access the education content?</p>
+        <ul>
+          <li>visit the education content tab full of articles, videos and guides.</li>
+          <li>would you like more information or assistance?contact us being human E-mail, support phone, feedback and suggestion we value your response</li>
+          <li>do respond with your feedback/suggestions to enable us to serve you better.</li>
+          <li>Health connect has been developed to offer trusted localized healthcare informatiom and resources working towards promoting the well-being and health improvements of persons in their advancing years located in rural settings.Stay intouch with information that keeps you healthy.</li>
+        </ul>
+        <p>healthcare connect is committed to enhancing the health and well being of elderly individuals in rural areas by providing trusted, localized healthcare information and resources.</p>
+        <p>Stay connected, Stay informed and Stay healthy!</p>
+        <p>Follows us on</p>
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="section-content">
+        <h3>contact us</h3>
+        <p>Need more info or assistance?reach out to</p>
+        <p>customer support:</p>
+        <ul>
+          <li>email:mailto:support@healthcareconnect.com</li>
+          <li>phone:0790843476</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>All rights reserved. &copy; 2023</p>
+</footer>
+
+</body>
+</html>
