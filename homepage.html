@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #3e8e41;
+}
+
+.header a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right a:hover {
+  background-color: #3e8e41;
+}
+
+.header-right a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.header-right a.login {
+  background-color: #3498db;
+  color: white;
+}
+
+.header-right a.login:hover {
+  background-color: #2980b9;
+}
+
+.header-right a.signup {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.header-right a.signup:hover {
+  background-color: #3e8e41;
+}
+
+.container {
+  padding: 16px;
+}
+
+.content {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.content .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content .description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content .button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.content .button:hover {
+  background-color: #3e8e41;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  text-align: center;
+  color: #5cb85c;
+}
+
+.footer .copyright {
+  font-size: 12px;
+}
+
+.search-container {
+  padding: 10px 16px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container input[type=text] {
+  width: 80%;
+}
+
+.search-container input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container input[type=submit]:hover {
+  background-color: #3e8e41;
+}
+
+.service {
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.service img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#" class="logo">My Health Connector</a>
+  <div class="header-right">
+    <a href="#">HOME</a>
+    <a href="#">BROWSER DIRECTORY</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">RESOURCE PAGE</a>
+    <a href="#">CONTACT US</a>
+    <a href="#" class="login">LOGIN</a>
+    <a href="#" class="signup">SIGN UP</a>
+  </div>
+</div>
+
+<div class="search-container">
+  <input type="text" placeholder="Enter service name or type...">
+  <input type="submit" value="Search">
+</div>
+
+<div class="container">
+  <div class="content">
+    <h2 class="title">Welcome to My Health Connector</h2>
+    <p class="description">
+      My Health Connector is a free service that helps you find health and social care services in your local area. We provide information on a wide range of services, including:
+    </p>
+    <button class="button">Browse Services</button>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2016/09/29/17/41/man-1706231_960_720.png" alt="Counselling and Guidance">
+    <h3>Counselling and Guidance</h3>
+    <p>Get help with mental health issues, relationship problems, and more.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/senior-2778822_960_720.png" alt="Community & Aged Care">
+    <h3>Community & Aged Care</h3>
+    <p>Find support for older people, people with disabilities, and their families.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2013/07/13/13/46/phone-153746_960_720.png" alt="Crisis & Emergency Support">
+    <h3>Crisis & Emergency Support</h3>
+    <p>Get immediate help in a crisis situation.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/08/16/ambulance-1869535_960_720.png" alt="Transport">
+    <h3>Transport</h3>
+    <p>Get help with getting to and from appointments.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/08/16/ambulance-1869535_960_720.png" alt="Financial Support">
+    <h3>Financial Support</h3>
+    <p>Get help with managing your finances.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2017/08/05/11/15/volunteering-2595736_960_720.png" alt="Volunteering and Employment">
+    <h3>Volunteering and Employment</h3>
+    <p>Find opportunities to give back to your community or find a job.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2016/03/31/20/51/health-1296709_960_720.png" alt="Health and Well-being">
+    <h3>Health and Well-being</h3>
+    <p>Get help with staying healthy and well.</p>
+  </div>
+
+  <div class="service">
+    <img src="https://cdn.pixabay.com/photo/2016/10/21/18/58/people-1763362_960_720.png" alt="Support Group">
+    <h3>Support Group</h3>
+    <p>Connect with others who understand what you're going through.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p class="copyright">&copy; 2023 My Health Connector</p>
+</div>
+
+</body>
+</html>
